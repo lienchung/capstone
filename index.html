@@ -36,7 +36,7 @@
             
             <h1 class="header1">
                 Instructions</h1>
-            <h2 class="header2">  Please answer the following 6 questions. Click on the example button above to see how to complete the task.  Once you are done with answering the questions, press the submit button at the end of the page.  Thank you!<br>
+            <h2 class="header2">  Please answer the following 6 questions which asked you to describe the change(s) that you see between two photos. Please click on the example button above to see an example of how to complete the task.  Once you are done with answering the questions, press the submit button at the end of the page.  Thank you!<br>
                
         
          
@@ -46,12 +46,13 @@
           
         </div>  
           
-     
+        
+          
       <form id="mturk_form">
 
         <div class="section" id="1">
-          <h5 class="header5">Q1: What internet search term would you use to get from the Original photo to the Altered Photo?</h5>
-          <p> <br></p>
+          <h5 class="header5">1. Describe the change from the first photo (original) to the second photo (altered).</h5>
+          <p>Separate each word or phrase with a semi-colon. <br></p>
          <div class="row">  
             <div class="col-md-6">
                 Original:
@@ -67,15 +68,15 @@
             
            </div>  
     <br><br>
-          <input class="instructions" type="text" name="image1" placeholder="Type your search phrase here."><br>
+          <input class="instructions" type="text" name="image1" placeholder="Enter response here."><br>
    
          
         </div>
         
         <div class="section" id="2">
             <br><br><br>
-           <h5 class="header5">Q2: What internet search term would you use to get from the Original photo to the Altered Photo?</h5>
-          <p> <br></p>
+           <h5 class="header5">2. Describe the change from the first photo (original) to the second photo (altered).</h5>
+          <p>Separate each word or phrase with a semi-colon. <br></p>
          <div class="row">  
             <div class="col-md-6">
                  Original:
@@ -91,7 +92,7 @@
             
            </div>  
       <br><br>
-          <input class="instructions" type="text" name="image2" placeholder="Type your search phrase here"><br>
+          <input class="instructions" type="text" name="image2" placeholder="Enter response here."><br>
    
           
         </div>
@@ -99,8 +100,8 @@
 
  <div class="section" id="3">
             <br><br><br>
-           <h5 class="header5">Q3: What internet search term would you use to get from the Original photo to the Altered Photo?</h5>
-         <p><br></p>
+           <h5 class="header5">3. Describe the change from the first photo (original) to the second photo (altered).</h5>
+         <p>Separate each word or phrase with a semi-colon.<br></p>
          <div class="row">  
             <div class="col-md-6">
                  Original:
@@ -116,7 +117,7 @@
             
            </div>  
        <br><br>
-          <input class="instructions" type="text" name="image3" placeholder="Type your search phrase here"><br>
+          <input class="instructions" type="text" name="image3" placeholder="Enter response here."><br>
    
          
 </div>
@@ -124,8 +125,8 @@
 
  <div class="section" id="4">
             <br><br><br>
-           <h5 class="header5">Q4: What internet search term would you use to get from the Original photo to the Altered Photo?</h5>
-          <p><br></p>
+           <h5 class="header5">4. Describe the change from the first photo (original) to the second photo (altered).</h5>
+          <p>Separate each word or phrase with a semi-colon.  <br></p>
          <div class="row">  
             <div class="col-md-6">
                  Original:
@@ -141,15 +142,15 @@
             
            </div>  
        <br><br>
-          <input class="instructions" type="text" name="image4" placeholder="Type your search phrase here"><br>
+          <input class="instructions" type="text" name="image4" placeholder="Enter response here."><br>
    
          
 </div>
 
 <div class="section" id="5">
             <br><br><br>
-           <h5 class="header5">Q5: What internet search term would you use to get from the Original photo to the Altered Photo?</h5>
-          <p><br></p>
+           <h5 class="header5">5. Describe the change from the first photo (original) to the second photo (altered).</h5>
+          <p>Separate each word or phrase with a semi-colon.  <br></p>
          <div class="row">  
             <div class="col-md-6">
                  Original:
@@ -165,15 +166,15 @@
             
            </div>  
        <br><br>
-          <input class="instructions" type="text" name="image5" placeholder="Type your search phrase here"><br>
+          <input class="instructions" type="text" name="image5" placeholder="Enter response here."><br>
    
          
 </div>
 
 <div class="section" id="6">
             <br><br><br>
-           <h5 class="header5">Q6: What internet search term would you use to get from the Original photo to the Altered Photo?</h5>
-          <p><br></p>
+           <h5 class="header5">6. Describe the change from the first photo (original) to the second photo (altered).</h5>
+          <p>Separate each word or phrase with a semi-colon. <br></p>
          <div class="row">  
             <div class="col-md-6">
                 Original:
@@ -189,7 +190,8 @@
             
            </div>  
        <br><br>
-          <input class="instructions" type="text" name="image6" placeholder="Type your search phrase here."><br>
+          <input class="instructions" type="text" name="image6" placeholder="Enter response here."><br>
+   
           
 </div>
 
@@ -219,6 +221,11 @@
 </div>
 
 
+ 
+    
+
+
+
         <input class="btn" type="submit" value="Submit Answers">
 <br><br><br>
       </form>
@@ -227,14 +234,12 @@
 
       <div id="example-modal" class="modal">
         <div class="modal-content">
-           <h4>What search term would you use to get from the first photo to the second photo?</h4>
-          <p></p>
+          <h4>Describe the change from the first photo (original) to the second photo (altered).</h4>
+          <p>You can enter more than one word or phrase.  Make sure you separate them using a semi-colon.</p>
           
          
               <img src="img/example1.jpg"><br><br>
-              Example Response:<br>
-            <span class="ex_response">how to make photo darker</span><br>
-            <br>
+              Response: <span class="ex_response">  bluer; darker; edges are darker; deeper; more vivid; more dramatic</span><br>
                   
 
           <!--p>In the context of these photos, a recognizable person:
